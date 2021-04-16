@@ -22,6 +22,8 @@ I use this to save backups of song demos, where the recordings are scratch recor
 
 This will create a "packed" folder named "riff idea 099000.packed", which has mp3 instead of wav media files. This folder cannot be opened in Studio One until it is "unpacked"
 
+> Before packing you can bounce some of the audio events so there are less files, and then Song -> Remove unused files.
+
 ### Unpack a song
 `python .\s1packer.py --directory "C:\Users\Johnny\Documents\Studio One\Songs\riff idea 099000.packed" --unpack=True`
 
